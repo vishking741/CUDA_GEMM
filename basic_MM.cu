@@ -1,3 +1,4 @@
+%%writefile test_01.cu
 #include <iostream>
 #include <cuda_runtime.h>
 #include <cstdlib>
@@ -108,7 +109,7 @@ int main()
         error += abs(h_C_gpu[i]-h_C[i]);
     }
 
-    if(error < 0)
+    if(error < 1e-3)
         cout<<"results are correct\n";
     else
         cout<<"wrong results\n";
