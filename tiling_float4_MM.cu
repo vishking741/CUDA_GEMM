@@ -1,4 +1,3 @@
-%%writefile test_01.cu
 #include <iostream>
 #include <cuda_runtime.h>
 #include <cstdlib>
