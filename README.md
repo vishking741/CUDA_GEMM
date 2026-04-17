@@ -1,5 +1,5 @@
 # CUDA_GEMM
-This repository contains multiple implementations of GEMM (General Matrix Multiplication) in CUDA, focusing on analyzing performance improvements through different optimization techniques like tiling and various libs like CUBLASS 
+This repository contains multiple implementations of GEMM (General Matrix Multiplication) in CUDA, focusing on analyzing performance improvements through different optimization techniques like tiling and float4 vector loading
 
 ## I am using Google colab free Online Tesla T4 for running the kernels and CUDA: 12.8 (nvcc) complier for Size: 1024 × 1024
 
