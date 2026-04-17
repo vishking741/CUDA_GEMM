@@ -22,5 +22,7 @@ Uses shared memory tiling (16×16) to reuse data across threads, reducing global
 - GPU Time (float4 + tiling only): 5.02541 ms  
 Extends tiling with `float4` vectorized loads and per-thread multiple outputs, reducing instr by manual loop unrolling and improving speed
 
-### Note : CPU times are have too much variations bcoz of online Google colab usage 
+### Note :
+- CPU times are having too much variations bcoz of online Google colab usage 
+- also GPU will have even much more faster processing , becuase i used CUDA API's for time calc not the profiling tool
 
